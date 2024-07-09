@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-EXTRACT_URI = os.getenv("EXTRACT_URI")
+EXTRACT_URI = 'https://asr-task-automation-ec.onrender.com/extract_task_entities'
 
 def get_api_response(file):
     response = response = requests.post(
